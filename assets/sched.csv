@@ -1,0 +1,33 @@
+﻿class-row,class-topic,Week,Day,Date,Topic,Reading,Assign-OUT,Assign-DUE
+,,1,,,,,,
+,,,W,17-Jan,"Welcome, Intro to ML",p.1-28,,
+,,2,M,22-Jan,Evaluating Models,p.29-51,,
+,,,W,24-Jan,Simple and Multiple Linear Regression,p.59-82,hw01,
+,,3,M,29-Jan,Assumptions and Other Potential Problems,p.82-119,,
+,,,W,31-Jan,Intro to Classification with KNN,"p.129-130, 37-42, 104-109",q01,hw01
+,,4,M,5-Feb,Logistic Regression,p.130,,
+,,,W,7-Feb,Discriminant Analysis,p.138-150,hw02,q01
+,,5,M,12-Feb,Classification Wrap-up,p.151-154,,
+,inClass,,W,14-Feb,Recap / Catch up Day,,q02,hw02
+,,6,T,20-Feb,Resampling Methods,p.175-190,,
+,,,W,21-Feb,Best Subset and Setwise Selection,p.205-210,hw03,q02
+,,7,M,26-Feb,Estimating Error w/ Cross-Validation,p.210-214,,ic10
+,,,W,28-Feb,Ridge Regression and the Lasso,p.214-228,q03,hw03
+,,8,M,4-Mar,PCR and PLS,p.228-244,,
+,,,W,6-Mar,Polynomial Regression and Step Functions,p.265-270,hw04,q03
+noClass,italic,9,M,11-Mar,NO CLASS - Spring Break,,,
+noClass,italic,,W,13-Mar,NO CLASS - Spring Break,,,
+,inClass,10,M,18-Mar,Recap / Catch up Day,,,
+,,,W,20-Mar,Splines and GAMs,p.271-287,q04,hw04
+,,11,M,25-Mar,Decision and Classification Trees,p.303-316,,
+,,,W,27-Mar,"Bagging, Random Forests, and Boosting",p.316-324,hw05,q04
+,,12,M,1-Apr,Maximal Margin and Support Vector Classifiers,p.337-355,,
+,,,W,3-Apr,Multiclass SVMs,p.355-359,q05,hw05
+,,13,M,8-Apr,K-Means and Heirarchical Clustering,p.385-401,,
+,proj ,,W,10-Apr,Final Project Work Session,,proj,q05
+noClass,italic,14,M,15-Apr,NO CLASS - Marathon Monday,,,
+,inClass,,W,17-Apr,Recap / Catch up Day,,,proj-proposal
+,,15,M,22-Apr,Advanced Topics: TBD,,,
+,proj ,,W,24-Apr,Final Project Work Session,,,proj-check-in
+presy,proj ,16,M,29-Apr,Final Project Presentations ,,,proj
+presy,proj ,,W,1-May,Final Project Presentations ,,,
