@@ -1,0 +1,56 @@
+---
+title: "Mid-Atlantic Men and Wage"
+output: html_document
+date: '2023-12-11'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ISLR)
+library(tidyverse)
+library(knitr)
+ds <- ISLR::Wage
+
+```
+
+# Data snippet
+```{r, echo=FALSE}
+
+kable(head(ds, 10))
+#summary(ds)
+
+```
+
+# wage vs. age 
+
+```{r, echo=FALSE}
+
+ggplot(ds, aes(x = age, y = wage)) +
+  geom_point() + 
+  theme_light() + 
+  theme(text = element_text(size = 20))             
+
+```
+
+# wage vs. year 
+
+```{r, echo=FALSE}
+
+ggplot(ds, aes(x = year, y = wage)) +
+  geom_point() + 
+  theme_light() + 
+  theme(text = element_text(size = 20))  
+
+```
+
+# wage vs. education 
+
+```{r, echo=FALSE}
+
+ggplot(ds, aes(x = education, y = wage)) +
+  geom_boxplot() + 
+  theme_light() + 
+  theme(text = element_text(size = 20), 
+        axis.text.x = element_text(angle=45, vjust=.5))  
+
+```
