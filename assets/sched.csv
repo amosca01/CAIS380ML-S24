@@ -1,7 +1,7 @@
 ﻿class-row,class-topic,Week,Day,Date,Topic,Reading,Assign-OUT,Assign-DUE
 ,,1,,,,,,
 ,,,W,17-Jan,"Welcome, Intro to ML",p.1-28,,
-,,2,M,22-Jan,Evaluating Models,p.29-51,,
+,,2,M,22-Jan,"Evaluating Models, GitHub Classroom",p.29-51,,ic01
 ,,,W,24-Jan,Simple and Multiple Linear Regression,p.59-82,hw01,
 ,,3,M,29-Jan,Assumptions and Other Potential Problems,p.82-119,,
 ,,,W,31-Jan,Intro to Classification with KNN,"p.129-130, 37-42, 104-109",q01,hw01
