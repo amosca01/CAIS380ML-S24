@@ -1,0 +1,40 @@
+---
+title: "Linear Regression"
+output: html_document
+date: '2024-01-23'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Get data
+
+```{r}
+houses <- read_csv("American_Housing_Data_20231209.csv")
+```
+
+# Plot
+```{r}
+
+# low flex 
+houses %>% 
+  filter(LivingSpace < 2000 & State == "New York") %>%
+  ggplot(aes(x = LivingSpace, y = Price)) + 
+    geom_point() + 
+    geom_smooth(method = lm) + 
+    theme_bw()
+
+```
+```{r}
+
+# high flex 
+houses %>% 
+  filter(LivingSpace < 2000 & State == "New York") %>%
+  ggplot(aes(x = LivingSpace, y = Price)) + 
+    geom_point() + 
+    geom_smooth(method = lm, formula = y ~ poly(x, 2)) + 
+    theme_bw()
+
+```

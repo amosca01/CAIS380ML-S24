@@ -1,0 +1,90 @@
+---
+title: "Homework 1 Starter Code"
+output: html_document
+date: '2024-01-23'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ISLR2)
+```
+
+
+# Take a look at the dataset 
+```{r}
+head(Boston)
+```
+# Simple Linear Regression
+
+## Regression 
+```{r}
+# fit SLR model 
+lm.fit <- lm(medv ~lstat, data = Boston)
+
+# look at moded info 
+lm.fit
+summary(lm.fit)
+coef(lm.fit)
+confint(lm.fit)
+```
+
+## Plot 
+```{r}
+
+Boston %>%
+  ggplot(aes(x = lstat, y= medv)) +
+  geom_point() +
+  geom_smooth(method = lm, formula = y ~ x) + 
+  theme_bw()
+
+```
+## Looking at Fit  
+```{r}
+
+# diagnostic plots
+par(mfrow = c(2,2))
+plot(lm.fit)
+
+#resudual plots
+plot(predict(lm.fit), residuals(lm.fit))
+plot(predict(lm.fit), rstudent(lm.fit))
+
+```
+
+# Multiple Linear Regression
+
+## Regression 
+```{r}
+# fit MLR model 
+lm.fit <- lm(medv ~ .,, data = Boston)
+
+# look at moded info 
+lm.fit
+summary(lm.fit)
+coef(lm.fit)
+confint(lm.fit)
+```
+
+## Plot 
+```{r}
+
+Boston %>%
+  ggplot(aes(x = lstat, y= medv)) +
+  geom_point() +
+  geom_smooth(method = lm, formula = y ~ x) + 
+  theme_bw()
+
+```
+## Looking at Fit  
+```{r}
+
+# diagnostic plots
+par(mfrow = c(2,2))
+plot(lm.fit)
+
+#resudual plots
+plot(predict(lm.fit), residuals(lm.fit))
+plot(predict(lm.fit), rstudent(lm.fit))
+
+```
