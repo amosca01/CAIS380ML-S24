@@ -1,33 +1,33 @@
 ﻿class-row,class-topic,Week,Day,Date,Topic,Reading,Assign-OUT,Assign-DUE
 ,,1,,,,,,
-,,,W,17-Jan,"Welcome, Intro to ML",p.1-28,,
-,,2,M,22-Jan,"Evaluating Models, GitHub Classroom",p.29-51,,ic01
-,,,W,24-Jan,Simple and Multiple Linear Regression,p.59-82,hw01,
-,,3,M,29-Jan,More Linear Regression,p.82-119,,
-,,,W,31-Jan,Intro to Classification with KNN,"p.129-130, 37-42, 104-109",q01,hw01
-,,4,M,5-Feb,Logistic Regression,p.130,,
-,,,W,7-Feb,Discriminant Analysis,p.138-150,hw02,q01
-,,5,M,12-Feb,Classification Wrap-up,p.151-154,,
-,inClass,,W,14-Feb,Recap / Catch up Day,,q02,hw02
-,,6,T,20-Feb,Resampling Methods,p.175-190,,
-,,,W,21-Feb,Best Subset and Setwise Selection,p.205-210,hw03,q02
-,,7,M,26-Feb,Estimating Error w/ Cross-Validation,p.210-214,,
-,,,W,28-Feb,Ridge Regression and the Lasso,p.214-228,q03,hw03
-,,8,M,4-Mar,PCR and PLS,p.228-244,,
-,,,W,6-Mar,Polynomial Regression and Step Functions,p.265-270,hw04,q03
+,,,W,17-Jan,"Welcome, Intro to ML",Ch. 2.1,,
+,,2,M,22-Jan,"Evaluating Models, GitHub Classroom",Ch. 2.2,,ic01
+,,,W,24-Jan,Simple and Multiple Linear Regression,"Ch. 3.1, 3.2",hw01,
+,,3,M,29-Jan,More Linear Regression,Ch. 3.3,,
+,,,W,31-Jan,LR Comparison with KNN,Ch. 3.5,q01,hw01
+,inClass,4,M,5-Feb,Linear Regression Lab,Ch. 3.6 ,,ic02
+,,,W,7-Feb,Logistic Regression,Ch. 4.3,hw02,q01
+,,5,M,12-Feb,Generative Models for Classification,Ch. 4.4,,
+,,,W,14-Feb,Comparison of Classification Methods,Ch. 4.5,q02,hw02
+,inClass,6,T,20-Feb,Classification Lab ,Ch. 4.7,,ic03
+,,,W,21-Feb,Cross-Validation and Bootstrap,"Ch. 5.1, 5.2",hw03,q02
+,inClass,7,M,26-Feb,Cross-Validation and Bootstrap Lab,Ch. 5.3,,ic04
+,,,W,28-Feb,Subset Selection,Ch. 6.1,q03,hw03
+,,8,M,4-Mar,Shrinkage Methods,Ch. 6.2,,
+,,,W,6-Mar,Dimension Reduction,Ch. 6.3,hw04,q03
 noClass,italic,9,M,11-Mar,NO CLASS - Spring Break,,,
 noClass,italic,,W,13-Mar,NO CLASS - Spring Break,,,
-,inClass,10,M,18-Mar,Recap / Catch up Day,,,
-,,,W,20-Mar,Splines and GAMs,p.271-287,q04,hw04
-,,11,M,25-Mar,Decision and Classification Trees,p.303-316,,
-,,,W,27-Mar,"Bagging, Random Forests, and Boosting",p.316-324,hw05,q04
-,,12,M,1-Apr,Maximal Margin and Support Vector Classifiers,p.337-355,,
-,,,W,3-Apr,Multiclass SVMs,p.355-359,q05,hw05
-,,13,M,8-Apr,K-Means and Heirarchical Clustering,p.385-401,,
+,inClass,10,M,18-Mar,Linear Models and Regularization Lab,Ch. 6.5,,ic05
+,,,W,20-Mar,Principal Components Analysis,Ch. 12.2,q04,hw04
+,,11,M,25-Mar,Clustering Methods,Ch. 12.4 ,,
+,inClass,,W,27-Mar,Unsupervised Learning Lab,Ch. 12.5 ,hw05,"q04, ic06"
+,,12,M,1-Apr,Decision Trees,Ch. 8.1,,
+,,,W,3-Apr,"Bagging, Random Forests, Boosting",Ch. 8.2,q05,hw05
+,inClass,13,M,8-Apr,Tree-Based Methods Lab,Ch. 8.3,,ic07
 ,proj ,,W,10-Apr,Final Project Work Session,,proj,q05
 noClass,italic,14,M,15-Apr,NO CLASS - Marathon Monday,,,
-,inClass,,W,17-Apr,Recap / Catch up Day,,,proj-proposal
-,,15,M,22-Apr,Advanced Topics: TBD,,,
+,,,W,17-Apr,TBD: Flex day ,,,proj-proposal
+,,15,M,22-Apr,TBD: Flex day ,,,
 ,proj ,,W,24-Apr,Final Project Work Session,,,proj-check-in
 presy,proj ,16,M,29-Apr,Final Project Presentations ,,,proj
 presy,proj ,,W,1-May,Final Project Presentations ,,,
