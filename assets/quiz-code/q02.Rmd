@@ -1,0 +1,55 @@
+---
+title: "q02"
+output: html_document
+date: "2024-02-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ISLR2)
+library(MASS)
+library(pROC)
+```
+
+```{r}
+
+# logistic 
+log.fit <- glm(data = Weekly, Direction ~ . - Year - Today,
+                   family = binomial)
+summary(log.fit)
+contrasts(Weekly$Direction)
+
+
+log.probs <- predict(log.fit, type="response")
+log.pred <- rep("Down", nrow(Weekly))
+log.pred[log.probs > 0.5] = "Up"
+table(log.pred, Weekly$Direction)
+```
+```{r}
+
+# logistic 
+log.fit <- glm(data = Weekly, Direction ~ Lag2,
+                   family = binomial)
+summary(log.fit)
+contrasts(Weekly$Direction)
+
+```
+
+```{r}
+
+# lda
+lda.fit <- lda(data = Weekly, Direction ~ . - Year - Today)
+lda.fit
+
+
+lda.pred <- predict(lda.fit, Weekly)
+names(lda.pred)
+lda.class <- lda.pred$class
+table(lda.class, Weekly$Direction)
+
+```
+
+
+
+
