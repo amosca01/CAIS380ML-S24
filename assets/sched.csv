@@ -17,16 +17,16 @@
 ,,,W,6-Mar,Dimension Reduction,Ch. 6.3,hw04,q03
 noClass,italic,9,M,11-Mar,NO CLASS - Spring Break,,,
 noClass,italic,,W,13-Mar,NO CLASS - Spring Break,,,
-,inClass,10,M,18-Mar,Linear Models and Regularization Lab,Ch. 6.5,,ic05
-,,,W,20-Mar,Principal Components Analysis,Ch. 12.2,q04,hw04
-,,11,M,25-Mar,Clustering Methods,Ch. 12.4 ,,
-,inClass,,W,27-Mar,Unsupervised Learning Lab,Ch. 12.5 ,hw05,"q04, ic06"
-,,12,M,1-Apr,Decision Trees,Ch. 8.1,,
-,,,W,3-Apr,"Bagging, Random Forests, Boosting",Ch. 8.2,q05,hw05
-,inClass,13,M,8-Apr,Tree-Based Methods Lab,Ch. 8.3,,ic07
+,inClass,10,M,18-Mar,"Linear Models and Regularization Lab, EDA",Ch. 6.5,,ic05
+,,,W,20-Mar,Decision Trees,Ch. 8.1,q04,hw04
+,,11,M,25-Mar,"Bagging, Random Forests, Boosting",Ch. 8.2,,
+,inClass,,W,27-Mar,Tree-Based Methods Lab,Ch. 8.3,hw05,"q04, ic06"
+,,12,M,1-Apr,Principal Components Analysis,Ch. 12.2,,
+,,,W,3-Apr,Clustering Methods,Ch. 12.4 ,q05,hw05
+,inClass,13,M,8-Apr,Unsupervised Learning Lab,Ch. 12.5 ,,ic07
 ,proj ,,W,10-Apr,Final Project Work Session,,proj,q05
 noClass,italic,14,M,15-Apr,NO CLASS - Marathon Monday,,,
-,,,W,17-Apr,TBD: Flex day ,,,proj-proposal
+,,,W,17-Apr,Coded Bias ,,,proj-proposal
 ,proj ,15,M,22-Apr,Final Project Work Session,,,
 ,speaker,,W,24-Apr,Guest Speaker - Ashley Suh ,,,proj-check-in
 presy,proj ,16,M,29-Apr,Final Project Presentations ,,,proj
