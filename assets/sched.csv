@@ -20,14 +20,14 @@ noClass,italic,,W,13-Mar,NO CLASS - Spring Break,,,
 ,inClass,10,M,18-Mar,"Linear Models and Regularization Lab, EDA",Ch. 6.5,,ic05
 noClass,italic,,W,20-Mar,NO CLASS,,q04,hw04
 ,,11,M,25-Mar,Decision Trees,Ch. 8.1,,
-,,,W,27-Mar,"Bagging, Random Forests, Boosting",Ch. 8.2,hw05,"q04, ic06"
-,inClass,12,M,1-Apr,Tree-Based Methods Lab,Ch. 8.3,,
-,,,W,3-Apr,Principal Components Analysis,Ch. 12.2,q05,hw05
-,,13,M,8-Apr,Clustering Methods,Ch. 12.4 ,,ic07
-,inClass,,W,10-Apr,Unsupervised Learning Lab,Ch. 12.5 ,proj,q05
+,,,W,27-Mar,"Bagging, Random Forests, Boosting",Ch. 8.2,hw05,q04
+,inClass,12,M,1-Apr,Tree-Based Methods Lab,Ch. 8.3,,ic06
+,,,W,3-Apr,Principal Components Analysis,Ch. 12.2,proj,hw05
+,,13,M,8-Apr,Clustering Methods,Ch. 12.4 ,,
+,inClass,,W,10-Apr,Unsupervised Learning Lab,Ch. 12.5 ,,"proj-proposal, ic07"
 noClass,italic,14,M,15-Apr,NO CLASS - Marathon Monday,,,
-,,,W,17-Apr,Coded Bias ,,,proj-proposal
+,,,W,17-Apr,Coded Bias ,,,proj-check-in
 ,proj ,15,M,22-Apr,Final Project Work Session,,,
-,speaker,,W,24-Apr,Guest Speaker - Ashley Suh ,,,proj-check-in
+,speaker,,W,24-Apr,Guest Speaker - Ashley Suh ,,,
 presy,proj ,16,M,29-Apr,Final Project Presentations ,,,proj
 presy,proj ,,W,1-May,Final Project Presentations ,,,
